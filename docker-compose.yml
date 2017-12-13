@@ -1,0 +1,6 @@
+dhcpd:
+  image: sirferdek/isc-dhcp-server
+  net: host
+  volumes:
+    - ./pit-shd-1.conf:/etc/dhcp/dhcpd.conf
+    - /var/lib/dhcp:/var/lib/dhcp
