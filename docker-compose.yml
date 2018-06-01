@@ -3,5 +3,5 @@ dhcpd:
   net: host
   volumes:
     - ./isc-dhcp-server:/etc/default/isc-dhcp-server
-    - ./pit-shd-1.conf:/etc/dhcp/dhcpd.conf
+    - ./pit-law-1.conf:/etc/dhcp/dhcpd.conf
     - ./dhcp:/var/lib/dhcp
